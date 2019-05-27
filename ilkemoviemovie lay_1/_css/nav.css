@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Carrois+Gothic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+*{
+    margin:0 auto;
+    padding:0;
+    font-family:'Roboto Slab', serif;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../_img/game_of_thrones_season_7_white_walkers-wallpaper-1920x1080.jpg);
+    background-color:black;
+    height:120vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+ul{
+    list-style-type:none;
+    float:right;
+    margin-top: 25px;
+}
+
+ul li{
+    display:inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color: #fff;
+    padding: 5px 20px;
+    border:1px solid transparent;
+    transition: 0.6s ease;
+    font-size:20px;
+}
+
+ul li a:hover{
+    background-color:#fff;
+    text-decoration:none;
+    color:#000;
+}
+ul li.active a{
+    text-decoration:none;
+    background-color:#fff;
+    color:#000;
+}
+.title{
+    background:transparent;
+    float:left;
+    width:auto;
+    height:auto;
+    color:white;
+    padding-left: 10px;
+}
+
+.title img{
+    width:280px;
+    height:auto;
+}
+
+input{
+    width:200px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+.your-class{
+    margin: 0 auto;
+}
+/*CHANGESSSSS ----------------------*/
+
+#wrapper{
+    max-width:1100px;
+    margin:0 auto;
+}
+.conteudo{
+    width:100%;
+    height: auto;
+}
+img{
+    width:250px;
+    height:350px;
+}
+.thing, .thing1{
+    letter-spacing:5px;
+    text-align:center;
+    width:auto;
+    padding-left:18px;
+    height: auto;
+    margin:0 auto;
+}
+.segundo_titulo{
+    text-align:left;
+    color:white;
+    font-weight:bold;
+    margin:0 auto;
+    padding-top:80px;
+}
+/*SEARCH BAR*/
+.search-box {
+    position: absolute;
+    padding-top: 38px;
+    float: right;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:transparent;
+    height: 40px;
+    border-radius: 40px;
+   }
+   
+   .search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+    color:white;
+   }
+   
+   .search-box:hover > .search-btn {
+    background: transparent;
+    text-decoration:none;
+   }
+   
+   .search-btn {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: white;
+    cursor: pointer;
+   }
+   
+   .search-btn > i {
+    color:white;
+    font-size: 30px;
+   }
+   
+   .search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-weight: bold;
+   }
+
+/*FORMULARIO*/
+
+.formu{
+    margin: 0 auto;
+    width:800px;
+    height:300px;
+    padding-left:70px;
+    margin:30px;
+    padding-top:27px;
+}
+
+.formu form{
+    color:white;
+    font-size:15px;
+}
+#msg{
+    height: 150px;
+}
+.titulo{
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding-top:80px;
+}
+/*ABOUT*/
+p{
+    color:white;
+    font-size:20px;
+}
+.sobre{
+    margin:50px;
+    border:3px solid;
+    border-color: white;
+}
+/*COISAS*/
+.conteúdo_mo{
+    width:1100px;
+    height: auto;
+}
+.img-poster{
+    float:left;
+    margin:10px;
+}
+.sinopse p{
+    padding-top:20px;
+}
+.conteúdo_mo .trailer{
+    float: right;
+    width:auto;
+    height: auto;
+    padding-right:80px;
+}
+.conteúdo_mo .lista-info{
+    float:left;
+    color:white;
+    font-size:15px;
+}

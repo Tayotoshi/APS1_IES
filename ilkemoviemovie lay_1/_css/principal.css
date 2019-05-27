@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Carrois+Gothic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+*{
+    font-family:'Roboto Slab', serif;
+}
+
+.navegation{
+  padding-top:30px;
+}
+.principal{
+  background-color:transparent;
+}
+.principal img{
+  width:400px;
+  margin:5px;
+  background-color:transparent;
+}
+.principal p{
+  margin-top:20px;
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+.header{
+  background-color:white;
+}
